@@ -1,0 +1,63 @@
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: black 2px solid;
+    border-spacing: 0;
+    }
+
+body{
+    background-color: rgb(189, 183, 183);
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    margin-left: 100px;
+    width: 960px;
+    
+}
+
+#sidebar{
+    list-style: none;
+    float: right;
+    margin-right: -175px;
+}
+
+header h1{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.textos{
+    margin-left: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(105, 114, 114);
+    border: black 3px solid;
+    border-radius: 3px;
+}
+
+header nav ul{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+header nav ul li a{
+    font-size: 18px;
+
+}
+
+footer{
+    clear: both;
+}

@@ -1,0 +1,49 @@
+#senha, #email, #senha2, #nome, #data{
+    border-radius: 50px;
+    border: black 1px solid;
+    padding-left: 30px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#botao{
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+legend{
+    text-align: center;
+
+}
+
+.container{
+    background-color: rgb(0, 99, 247);
+    max-width: 300px;
+    border: black 4px solid;
+    padding: 10px;
+    border-radius: 20px;
+    position:absolute;
+    top:155px;
+    left:500px;
+    
+    
+}
+
+body{
+    background-color: teal;
+}
+
+footer a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background: orange;
+}
